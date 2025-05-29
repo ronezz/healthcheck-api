@@ -1,5 +1,4 @@
-# HealthCheck API – DevOps Portfolio Project
-
+# HealthCheck API – DevOps Portfolio 
 HealthCheck API es una aplicación sencilla en Flask que expone el estado del sistema (CPU, RAM, disco, uptime y servicios simulados) mediante una API REST
 Este proyecto tiene como objetivo demostrar el uso de herramientas DevOps esenciales como Docker, Terraform y AWS EC2, automatizando el despliegue de una API y exponiéndola públicamente mediante el mapeo de puertos
 
@@ -17,7 +16,6 @@ Este proyecto tiene como objetivo demostrar el uso de herramientas DevOps esenci
 ---
 ### Endpoint
 
-```http
 GET /health – Devuelve un JSON con:
 - Porcentaje de CPU utilizado
 - Porcentaje de memoria RAM
