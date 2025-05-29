@@ -14,11 +14,12 @@ Este proyecto tiene como objetivo demostrar el uso de herramientas DevOps esenci
 - **Git**
 
 ---
+
 ### Endpoint
 
 GET /health – Devuelve un JSON con:
 - Porcentaje de CPU utilizado
 - Porcentaje de memoria RAM
 - Porcentaje de uso del disco
-- Tiempo de actividad del sistema (uptime)
+- Tiempo de actividad del sistema 
 - Estado simulado de servicios (`nginx`, `mysql`)
