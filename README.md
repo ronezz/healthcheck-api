@@ -3,6 +3,7 @@
 HealthCheck API es una aplicación sencilla en Flask que expone el estado del sistema (CPU, RAM, disco, uptime y servicios simulados) mediante una API REST. 
 
 Este proyecto tiene como objetivo demostrar el uso de herramientas DevOps esenciales como Docker, Terraform y AWS EC2, automatizando el despliegue de una API y exponiéndola públicamente mediante el mapeo de puertos
+
 ---
 
 ## Tecnologías utilizadas
@@ -50,7 +51,7 @@ docker run -d -p 80:5000 --name healthcheck_api healthcheck-api
 
 ---
 
-## ☁️ Despliegue en AWS EC2 con Terraform
+## Despliegue en AWS EC2 con Terraform
 
 ### Requisitos previos:
 - Cuenta en AWS
@@ -81,11 +82,10 @@ http://<IP_PUBLICA>/health
 
 ##  Endpoint
 
-```http
 GET /health – Devuelve un JSON con:
 - Porcentaje de CPU utilizado
 - Porcentaje de memoria RAM
 - Porcentaje de uso del disco
 - Tiempo de actividad del sistema (uptime)
 - Estado simulado de servicios (`nginx`, `mysql`)
-```
+
